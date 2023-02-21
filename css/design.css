@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    text-align: center;
+}
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 370px;
+    color: rgb(36, 36, 36);
+}
+div.first h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+div.first p{
+    padding-top: 17px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 75px;
+}
+div.first a{
+    padding: 25px 40px;
+    background-color: #1d809f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 1s;
+}
+div.first a:hover{
+    background-color: #196d87;
+    border-color: #17667f;
+}
+.second{
+    font-size: 14px;
+    padding: 140px;
+}
+div.second p{
+    padding-top: 15px;
+    font-size: 17px;
+    color: rgb(92, 91, 91);
+    margin-bottom: 75px;
+}
+.btn{
+    padding: 25px 35px;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 1s;
+}
+.link{
+    color: #1D809F;
+    text-decoration: underline;
+}
+.btn:hover{
+    background-color: black;
+}
+.third{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    color: rgb(36, 36, 36);
+}
+.third h2{
+    font-weight: 700;
+    margin-bottom: 60px;
+    font-size: 3.5rem;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.third a{
+    padding: 25px 45px;
+    background-color: #1d809f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 1s;
+}
+div.third a:hover{
+    background-color: #196d87;
+    border-color: #17667f;
+}
